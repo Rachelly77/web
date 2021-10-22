@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .part-one{
+            margin-top: 19px;
+            text-align: right;
+            font-size:13px;
+            text-decoration: underline;
+        }
+        .part-one span{
+           margin-right: 20px;
+           color: #333333;
+           font-weight:bold;
+           cursor: pointer;
+        }  
+        .part-one span:hover{
+            color:#03c;
+        }      
+        /*二部分*/
+        .part-two{
+            margin-top: 100px;
+            text-align: center;
+        }
+        .img-box{
+            margin-bottom: 40px;
+        }
+        .input{
+            width: 640px;
+            height: 36px;
+            margin-left: 2px;
+            outline: none;
+        }
+        .input：focus{
+            border:1px solid #4791ff;
+        }
+        /*三部分*/
+        .part-three{
+            margin-top: 310px;
+            text-align: center;
+            font-size: 14px;
+            color: #999999;
+        }
+        .qr-code{
+            color:#333333;
+            font-size: 16px;
+        }
+        </style>
+    </head>
+<body>
+    <div class="part-one"> 
+        <span>新闻</span>
+        <span>hao123</span>
+        <span>地图</span>
+        <span>视频</span>
+        <span>贴吧</span>
+        <span>学术</span>
+        <span>登录</span>
+        <span>设置</span>
+    </div>
+<div class="part-two">
+    <div class="img-box">
+        <img src="./baidu.png" width="280" height="90"/>
+    </div>
+    <div>
+        <input class="input">
+    </div>
+</div>
+<div class="part-three">
+    <div class="qr-code">
+        <img src="./QQ截图20211022222525.png" width="133" height="130">
+        <div>下载百度APP</div>
+    </div>
+    <div>有事搜一搜 没事看一看</div>
+</div>
+</body>
+</html>
