@@ -1,0 +1,25 @@
+//方法一、使用Object()构造函数
+let obj = new Object();
+obj.name = 'Crb';
+obj.age = 18;
+console.log(obj);
+//方法二、使用对象字面量
+let obj = {
+    name:'Rachel',
+    age:18
+}
+console.log(obj);
+//方法三、使用构造函数
+function Person(){
+    this.name = 'Billy';
+    this.age = 18;
+}
+let p = new Person();
+console.log(p);
+//用数组方法concat一个空数组
+var a=[Crb,Rachel,Billy];
+var b=a;
+var c=[].concat(a);
+a.push(4);
+//控制台打印
+console.table(a);
